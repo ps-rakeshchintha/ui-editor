@@ -1,0 +1,23 @@
+/* styles.css */
+
+.icon-wrapper {
+  display: none;
+}
+.edit-icon:hover,.delete-icon:hover { color: red; }
+
+.block:hover .icon-wrapper {
+  display: flex;
+}
+
+.block:hover .edit-icon, .block:hover .delete-icon {
+  display: block !important;
+}
+
+.block {
+  border: 1px solid transparent ;
+  position: relative;
+}
+
+.block:hover {
+  border: 1px dashed #ccc;
+}
